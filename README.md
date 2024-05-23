@@ -2,31 +2,31 @@
 This is a tool demo for our work VisRepo
 
 #### ***directory***
-
+```
 vis_repo
 |-- back
-|   |-- data
+|   |-- data ()
 |   |   └-- home.js
 |   |-- script
-|       |-- app.py（main file）
-|       |-- textProcess
+|       |-- app.py (for text preprocessing)
+|       |-- textProcess 
 |           |-- MyBerTopic.py（topic model method）
 |           |-- SourceCodeParser （parse source code method）
 |           |-- TextPreProcessor（text preprocess method）
 |-- vis
-    |-- public（public assets）
-    |-- scripts 
-    |-- src
+    |-- public(public resources)
+    |-- scripts (executable commands)
+    |-- src 
         |-- App.css
         |-- App.test.tsx
         |-- App.tsx
         |-- index.css
         |-- index.tsx
-        |-- apis（backend request api）
+        |-- apis（request api）
         |   |-- api.ts
         |   |-- http.ts
         |   |-- request.ts
-        |-- components（modules）
+        |-- components (modules implementation)
         |   |-- common
         |   |-- controlPanel
         |   |-- header
@@ -37,8 +37,7 @@ vis_repo
         |   |-- topicModelTree
         |-- styles
         |-- utils
-
-
+```
 ### ***working with VisRepo***
 ***1. install and start Elasticsearch 8.4***
 
@@ -74,12 +73,14 @@ In the vis_repo/vis directory, run: `npm install`
 
 ***4. start search engine***
 
-- start flask
+- start backend
 
 In the back/script directory, run: `python app.py.py`
+
+- start frontend
 
 In the vis_repo/vis directory, run: `npm start`
 
 - check the status of VisRepo
 
-`http://x.x.x.x:3000`
+`http://localhost:3000`
