@@ -1,6 +1,9 @@
 ### ***introduction***
 This is a tool demo for our work VisRepo
 
+#### ***directory***
+
+
 ### ***working with VisRepo***
 ***1. install and start Elasticsearch 8.4***
 
@@ -16,7 +19,15 @@ This is a tool demo for our work VisRepo
 
 `http://x.x.x.x:9200`
 
-***2. get source code***
+***2. install node 16***
+
+- download
+
+`https://www.elastic.co/downloads/past-releases#elasticsearch`
+
+- Configure the system environment
+
+***3. get source code***
 
 - clone source code
 
@@ -24,19 +35,15 @@ This is a tool demo for our work VisRepo
 
 - install dependencies
 
-In the vis_repo/vis directory, run:
-
-`npm install`
+In the vis_repo/vis directory, run: `npm install`
 
 ***4. start search engine***
 
 - start flask
 
-In the back/script directory, run:
-`python app.py.py`
+In the back/script directory, run: `python app.py.py`
 
-In the vis_repo/vis directory, run:
-`npm start`
+In the vis_repo/vis directory, run: `npm start`
 
 - check the status of codematcher
 
