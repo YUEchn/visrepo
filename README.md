@@ -5,10 +5,9 @@ This is a tool demo for our work VisRepo
 ```
 vis_repo
 |-- back
-|   |-- data ()
-|   |   └-- home.js
+|   |-- data (for text preprocessing)
 |   |-- script
-|       |-- app.py (for text preprocessing)
+|       |-- app.py (main application file)
 |       |-- textProcess 
 |           |-- MyBerTopic.py（topic model method）
 |           |-- SourceCodeParser （parse source code method）
