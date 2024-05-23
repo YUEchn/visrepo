@@ -1,0 +1,40 @@
+.cluster-details-chart {
+  /* overflow: scroll; */
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 30px;
+  max-width: 240px;
+  border-radius: 4px;
+  height: auto;
+  background: rgba(250, 250, 250, 0.9);
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  text-align: center;
+  z-index: 1000;
+}
+
+.details-chart-title {
+  height: 7%;
+  width: 100%;
+  font-size: 0.7vw;
+  background-color: #eeeeee;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.subcluster-tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(250, 250, 250, 1);
+  color: #000;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

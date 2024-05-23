@@ -1,0 +1,76 @@
+@import "~@/styles/color.less";
+
+h1 {
+  margin: 0;
+  line-height: 4vh;
+}
+.engine-logo {
+  /* margin-left: 2vh; */
+  width: 10vw;
+  float: left;
+}
+.search-container {
+  float: left;
+  margin-left: 1vw;
+  width: 70vw;
+  height: 100%;
+  /* text-align: -webkit-center; */ /* 可以让块级元素水平居中 */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-image: url('../assets/img/interface-bg.jpg'); */
+
+  // background: yellow;
+}
+
+.search-interface {
+  width: 40vw;
+  margin-right: 20px;
+  /* height: 30%; */
+}
+
+.colorful-input {
+  position: relative;
+
+  .highlight-shadow-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 15px 8px 8px 20px;
+    border: 0px transparent;
+
+    font-size: 13px;
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    //   "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    //   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    word-break: break-all;
+    white-space: pre-wrap;
+    padding-left: 20px;
+    padding-top: 15px;
+
+    span {
+      border-radius: 4px;
+      padding: 2px 0px;
+    }
+  }
+
+  .highlight-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    z-index: 999;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hidden-input {
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.switchUI {
+  position: absolute;
+  right: 10px;
+}

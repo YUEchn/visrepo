@@ -1,0 +1,215 @@
+.container-title {
+  width: 100%;
+  height: 3%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  // background: #bebdbd;
+  color: #6a6969;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.single-repo-basic-info {
+  width: 100%;
+  height: 17%;
+  border: 1px solid #ddd;
+
+  .repo-info-title {
+    // display: flex;
+    color: "black";
+    /* height: auto; */
+    min-height: 50px;
+    width: 100%;
+    background-color: "#ddd";
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .repo-info-title h2 {
+    margin: 0;
+    /* width: 40%; */
+    margin-left: 3px;
+    margin-top: 2px;
+  }
+
+  .repo-info-description {
+    min-height: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1em;
+    width: 96%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .repo-info-labels {
+    padding-left: 2%;
+    display: flex;
+    min-height: 80px;
+    width: 98%;
+    height: auto;
+  }
+
+  .repo-info-tags {
+    /* display: flex; */
+    width: 50%;
+    /* height: auto; */
+  }
+
+  .repo-info-language {
+    width: 48%;
+    height: 80px;
+  }
+}
+
+.source-code-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+
+  h4 {
+    margin: 0;
+  }
+
+  .source-code-title {
+    padding: 0 5px;
+    display: flex;
+    width: 100%;
+    height: 3%;
+    justify-content: space-between;
+    // border: 1px solid #ddd;
+    background-color: #eee;
+  }
+
+  .source-code-left {
+    width: 300px;
+    height: 100%;
+    // border: 1px solid #ddd;
+    overflow-y: scroll;
+  }
+  .source-code-center {
+    width: 60%;
+    height: 100%;
+    border: 1px solid #ddd;
+
+    .source-code-directory-container {
+      width: 100%;
+      height: 97%;
+      display: flex;
+
+      .source-code-direct-left-container {
+        width: 15%;
+        height: 100%;
+        overflow: auto;
+        // border: 1px solid #ddd;
+      }
+
+      .source-code-direct-right-container {
+        width: calc(100% - 15% - 300px);
+        height: 100%;
+        overflow: auto;
+        // border: 1px solid #ddd;
+      }
+    }
+  }
+
+  .source-code-right {
+    width: calc(100% - 300px - 30%);
+    height: 100%;
+    border: 1px solid #ddd;
+
+    
+  .source-code-container{
+    width: 100%;
+    height: 97%;
+    overflow: auto;
+  }
+  }
+
+
+}
+
+#source-code {
+  // width: 2000px;
+  height: 94%;
+  padding: 0 10px;
+}
+#source-code-directory {
+  width: 90%;
+  height: 3000px;
+}
+#source-code-directory-thumbnail {
+  width: 500px;
+  height: 3000px;
+}
+#variables-wordcloud {
+  width: 100%;
+  // height: 100%;
+  height: auto;
+}
+pre.w-prismjs {
+  margin: 0;
+}
+
+.click-only-text {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.click-only-text::selection {
+  background: none;
+}
+
+.word-default {
+  // fill: cadetblue;
+  font-weight: normal;
+}
+.word-hovered {
+  // fill: teal;
+  font-weight: bold;
+}
+.word-selected {
+  // fill: darkslategrey;
+  font-weight: bold;
+}
+
+.span-title {
+  font-size: 14px;
+}
+
+.text-type-title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.folder-selected{
+  fill: #e1a132;
+}
+
+.file-selected{
+  fill: #e1c432;
+}
+.function-selected{
+  fill: #8c32e1;
+}
+
+.var-selected{
+  fill: #326fe1;
+}
+
+.directory-text-selected{
+  fill: red;
+}
+
+.word-length-filter{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}

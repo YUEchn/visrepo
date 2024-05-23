@@ -1,0 +1,207 @@
+.topic-tree-up {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  
+
+}
+.topic-tree-left {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .topic-tree-control {
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 7px 3px;
+    overflow-y: auto;
+
+    :where(.css-dev-only-do-not-override-1qhpsh8) span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tree-layout-setting {
+      margin-bottom: 5px;
+      flex: 0;
+    }
+
+    .word-selection{
+      color: #aaa;
+      font-size: 12px;
+    }
+  }
+
+    .topic-word-scope-select {
+      height: 3%;
+      padding: 0 2px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #aaa;
+    }
+    .topic-word-bar {
+      height: 90%;
+      overflow-y: auto;
+    }
+  // }
+
+  .topic-overview-container {
+    height: 8%;
+    width: 100%;
+  }
+}
+
+.topic-tree-chart-container {
+  width: 88%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: auto;
+  .topic-tree-chart {
+    width: 1450px;
+    // height: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+}
+
+.topic-tree-right {
+  width: 100%;
+  height: 30%;
+  display: flex;
+
+  .details {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+}
+
+.tree-control-subtitle {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topic-word-bar-chart {
+  height: 1000px;
+}
+
+.icon-wrapper {
+  position: relative;
+  padding: 0px 30px;
+}
+
+.icon-wrapper .anticon {
+  position: absolute;
+  top: -2px;
+  width: 16px;
+  height: 16px;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  line-height: 1;
+}
+.icon-wrapper .anticon:first-child {
+  left: 0;
+}
+
+.icon-wrapper .anticon:last-child {
+  right: 0;
+}
+
+// 子弹图的颜色
+.bullet {
+  font: 10px sans-serif;
+}
+.bullet .marker {
+  stroke: #000;
+  stroke-width: 2px;
+}
+.bullet .marker.time {
+  stroke: tomato;
+  stroke-width: 2px;
+}
+.bullet .tick line {
+  stroke: #666;
+  stroke-width: 0.5px;
+}
+.bullet .range.s0 {
+  fill: #eee;
+}
+.bullet .range.s1 {
+  fill: #ddd;
+}
+.bullet .range.s2 {
+  fill: #ccc;
+}
+.bullet .measure.s0 {
+  fill: lightsteelblue;
+}
+.bullet .measure.s1 {
+  fill: steelblue;
+}
+.bullet .title {
+  font-size: 12px;
+  font-weight: bold;
+}
+.bullet .subtitle {
+  fill: #999;
+}
+
+.bullet-tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(250, 250, 250, 1);
+  color: #000;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.circle-topic-word {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  z-index: 999;
+}
+
+.tree-control-subtitle {
+  // font-size: 12px;
+}
+
+.d3-tip {
+  background-color: rgba(0, 0, 0, 0.5); /* 设置背景色 */
+  // border: 1px solid #ccc; /* 设置边框 */
+  border-radius: 5px;
+  padding: 5px; /* 设置内边距 */
+  color: white;
+}
+
+#topic-selection-chart .domain{
+  display: none;
+}
+
+.topic-selecticon-axis{
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.node-selected{
+  fill: #1574c2;   // 节点被选中之后添加一个选择状态
+}
+
+.topic-cooccurence{
+  fill: #1574c2;
+  font-size: 12px;
+}

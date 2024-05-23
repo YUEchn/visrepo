@@ -1,0 +1,463 @@
+{
+    "took": 468,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2757,
+            "relation": "eq"
+        },
+        "max_score": 8.923643,
+        "hits": [
+            {
+                "_index": "vis_repo_engine",
+                "_id": "jH3WJIUBASwVudlWAAUD",
+                "_score": 8.923643,
+                "_source": {
+                    "repoName": "legislation-explorer",
+                    "owner.ownerName": "1794404_openfisca",
+                    "owner.htmlUrl": "https://github.com/openfisca",
+                    "owner.ownerType": "Organization",
+                    "owner.ownerDescription": "Turn law into software.",
+                    "htmlUrl": "https://github.com/openfisca/legislation-explorer",
+                    "description": "Explore legislation formulas and parameters.",
+                    "createdAt": "2015-09-07T13:52:48Z",
+                    "updatedAt": "2021-12-06T00:05:42Z",
+                    "size": 1410,
+                    "topics": [
+                        "better-rules",
+                        "legislation-as-code",
+                        "microsimulation",
+                        "rules-as-code"
+                    ],
+                    "stargazersCount": 23,
+                    "watchersCount": 23,
+                    "contentsUrl": "https://api.github.com/repos/openfisca/legislation-explorer/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "CSS",
+                        "Jinja",
+                        "Shell"
+                    ],
+                    "contributors": [
+                        "fpagnoux",
+                        "MattiSG",
+                        "sandcha",
+                        "Anna-Livia",
+                        "cbenz",
+                        "Morendil",
+                        "laem",
+                        "pnbt",
+                        "dependabot[bot]",
+                        "dependabot-preview[bot]",
+                        "edarin"
+                    ]
+                },
+                "highlight": {
+                    "topics": [
+                        "legislation-<em>as</em>-code",
+                        "rules-<em>as</em>-code"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "hX3WJIUBASwVudlWOcLW",
+                "_score": 8.462931,
+                "_source": {
+                    "repoName": "contentful-migrate",
+                    "owner.ownerName": "331353_deluan",
+                    "owner.htmlUrl": "https://github.com/deluan",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": null,
+                    "htmlUrl": "https://github.com/deluan/contentful-migrate",
+                    "description": "🐎 Schema migration tooling for Contentful, with state management",
+                    "createdAt": "2018-02-15T11:08:15Z",
+                    "updatedAt": "2022-07-05T20:36:43Z",
+                    "size": 526,
+                    "topics": [
+                        "cms-as-code",
+                        "contentful"
+                    ],
+                    "stargazersCount": 52,
+                    "watchersCount": 52,
+                    "contentsUrl": "https://api.github.com/repos/deluan/contentful-migrate/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "Dockerfile"
+                    ],
+                    "contributors": [
+                        "deluan",
+                        "dependabot-preview[bot]",
+                        "talend-deploy",
+                        "OriginalEXE",
+                        "parkerhutchinson",
+                        "dependabot[bot]",
+                        "glazzara",
+                        "lkjsavolainen",
+                        "rbrander",
+                        "void--",
+                        "wascloud",
+                        "garnerp"
+                    ]
+                },
+                "highlight": {
+                    "topics": [
+                        "cms-<em>as</em>-code"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "n3vVJIUBASwVudlWuf98",
+                "_score": 8.340507,
+                "_source": {
+                    "repoName": "opentrashmail",
+                    "owner.ownerName": "18282715_HaschekSolutions",
+                    "owner.htmlUrl": "https://github.com/HaschekSolutions",
+                    "owner.ownerType": "Organization",
+                    "owner.ownerDescription": "Innovation - Education - Security",
+                    "htmlUrl": "https://github.com/HaschekSolutions/opentrashmail",
+                    "description": "Open Source standalone trashmail solution that ships its own mail server",
+                    "createdAt": "2019-08-13T20:27:23Z",
+                    "updatedAt": "2022-08-10T05:33:48Z",
+                    "size": 1735,
+                    "topics": [
+                        "docker",
+                        "email-as-api",
+                        "email-as-rss",
+                        "php",
+                        "python",
+                        "selfhosted",
+                        "trashmail"
+                    ],
+                    "stargazersCount": 265,
+                    "watchersCount": 265,
+                    "contentsUrl": "https://api.github.com/repos/HaschekSolutions/opentrashmail/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "PHP",
+                        "Python",
+                        "HTML",
+                        "Shell",
+                        "Dockerfile",
+                        "CSS"
+                    ],
+                    "contributors": [
+                        "geek-at",
+                        "poblabs",
+                        "Dan-Q",
+                        "EOCommunity",
+                        "manfromafar",
+                        "wr3nch0x1",
+                        "marceltransier",
+                        "mattburchett",
+                        "ranjit-git"
+                    ]
+                },
+                "highlight": {
+                    "topics": [
+                        "email-<em>as</em>-api",
+                        "email-<em>as</em>-rss"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "VnzVJIUBASwVudlWzE_R",
+                "_score": 7.9366765,
+                "_source": {
+                    "repoName": "azure-naming",
+                    "owner.ownerName": "3367065_nianton",
+                    "owner.htmlUrl": "https://github.com/nianton",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": null,
+                    "htmlUrl": "https://github.com/nianton/azure-naming",
+                    "description": "Bicep and ARM template module for keeping a consistent Azure resource naming convention.",
+                    "createdAt": "2021-06-08T08:26:02Z",
+                    "updatedAt": "2022-08-02T13:22:11Z",
+                    "size": 189,
+                    "topics": [
+                        "bicep",
+                        "iac",
+                        "infrastructure-as-code"
+                    ],
+                    "stargazersCount": 37,
+                    "watchersCount": 37,
+                    "contentsUrl": "https://api.github.com/repos/nianton/azure-naming/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "Handlebars"
+                    ],
+                    "contributors": [
+                        "nianton",
+                        "mranest"
+                    ]
+                },
+                "highlight": {
+                    "topics": [
+                        "infrastructure-<em>as</em>-code"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "z3zVJIUBASwVudlWyD6H",
+                "_score": 7.8346167,
+                "_source": {
+                    "repoName": "As-Exploits",
+                    "owner.ownerName": "46088090_yzddmr6",
+                    "owner.htmlUrl": "https://github.com/yzddmr6",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": "专业CTF啦啦队@L3HSec",
+                    "htmlUrl": "https://github.com/yzddmr6/As-Exploits",
+                    "description": "中国蚁剑后渗透框架",
+                    "createdAt": "2020-11-12T01:28:37Z",
+                    "updatedAt": "2022-08-12T15:56:07Z",
+                    "size": 5820,
+                    "topics": [],
+                    "stargazersCount": 631,
+                    "watchersCount": 631,
+                    "contentsUrl": "https://api.github.com/repos/yzddmr6/As-Exploits/contents/{+path}",
+                    "language": [
+                        "JavaScript"
+                    ],
+                    "contributors": [
+                        "yzddmr6",
+                        "Medicean"
+                    ]
+                },
+                "highlight": {
+                    "repoName": [
+                        "<em>As</em>-Exploits"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "AnzVJIUBASwVudlWykrl",
+                "_score": 7.8346167,
+                "_source": {
+                    "repoName": "as-inliner",
+                    "owner.ownerName": "234957_surma",
+                    "owner.htmlUrl": "https://github.com/surma",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": "DX at Shopify. Web Platform Advocate. Craving simplicity, finding it nowhere. Internetrovert 🏳️‍🌈",
+                    "htmlUrl": "https://github.com/surma/as-inliner",
+                    "description": "Inlines files into your AssemblyScript",
+                    "createdAt": "2021-03-20T14:57:08Z",
+                    "updatedAt": "2022-03-09T12:44:35Z",
+                    "size": 18,
+                    "topics": [],
+                    "stargazersCount": 26,
+                    "watchersCount": 26,
+                    "contentsUrl": "https://api.github.com/repos/surma/as-inliner/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "TypeScript"
+                    ],
+                    "contributors": [
+                        "surma"
+                    ]
+                },
+                "highlight": {
+                    "repoName": [
+                        "<em>as</em>-inliner"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "SHzVJIUBASwVudlWy0p3",
+                "_score": 7.8346167,
+                "_source": {
+                    "repoName": "as-big",
+                    "owner.ownerName": "7925050_ttulka",
+                    "owner.htmlUrl": "https://github.com/ttulka",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": "I'm a teapot",
+                    "htmlUrl": "https://github.com/ttulka/as-big",
+                    "description": "AssemblyScript library for arbitrary-precision decimal arithmetic.",
+                    "createdAt": "2021-03-07T14:49:20Z",
+                    "updatedAt": "2022-07-13T04:00:22Z",
+                    "size": 733,
+                    "topics": [
+                        "assemblyscript",
+                        "big",
+                        "bigdecimal",
+                        "bigfloat",
+                        "bignumber",
+                        "decimal",
+                        "float",
+                        "math",
+                        "numer",
+                        "precision"
+                    ],
+                    "stargazersCount": 28,
+                    "watchersCount": 28,
+                    "contentsUrl": "https://api.github.com/repos/ttulka/as-big/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "TypeScript"
+                    ],
+                    "contributors": [
+                        "ttulka",
+                        "MikeMcl"
+                    ]
+                },
+                "highlight": {
+                    "repoName": [
+                        "<em>as</em>-big"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "HX3WJIUBASwVudlWByYM",
+                "_score": 7.8346167,
+                "_source": {
+                    "repoName": "as-a",
+                    "owner.ownerName": "2212006_bahmutov",
+                    "owner.htmlUrl": "https://github.com/bahmutov",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": "JavaScript ninja, image processing expert, software quality fanatic. Sr Director of Engineering at Mercari US. MS MVP for OSS work, GitHub Star.",
+                    "htmlUrl": "https://github.com/bahmutov/as-a",
+                    "description": "Runs a given command with additional environment settings for simple local development",
+                    "createdAt": "2016-02-10T21:54:39Z",
+                    "updatedAt": "2022-07-08T10:40:46Z",
+                    "size": 296,
+                    "topics": [
+                        "environment",
+                        "environment-variables",
+                        "shell",
+                        "utility"
+                    ],
+                    "stargazersCount": 58,
+                    "watchersCount": 58,
+                    "contentsUrl": "https://api.github.com/repos/bahmutov/as-a/contents/{+path}",
+                    "language": [
+                        "JavaScript"
+                    ],
+                    "contributors": [
+                        "bahmutov"
+                    ]
+                },
+                "highlight": {
+                    "repoName": [
+                        "<em>as</em>-a"
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "yn3WJIUBASwVudlWEUZy",
+                "_score": 7.8346167,
+                "_source": {
+                    "repoName": "as-table",
+                    "owner.ownerName": "1707_xpl",
+                    "owner.htmlUrl": "https://github.com/xpl",
+                    "owner.ownerType": "User",
+                    "owner.ownerDescription": "🇺🇦",
+                    "htmlUrl": "https://github.com/xpl/as-table",
+                    "description": "A simple function that prints objects as ASCII tables. Supports ANSI styling and weird Unicode 💩 emojis – they won't break the layout.",
+                    "createdAt": "2016-08-07T12:55:25Z",
+                    "updatedAt": "2022-02-22T12:34:33Z",
+                    "size": 990,
+                    "topics": [
+                        "ascii-tables",
+                        "javascript",
+                        "pretty-print",
+                        "stringify"
+                    ],
+                    "stargazersCount": 53,
+                    "watchersCount": 53,
+                    "contentsUrl": "https://api.github.com/repos/xpl/as-table/contents/{+path}",
+                    "language": [
+                        "JavaScript"
+                    ],
+                    "contributors": [
+                        "xpl",
+                        "kroitor",
+                        "dependabot[bot]",
+                        "forivall",
+                        "neolao"
+                    ]
+                },
+                "highlight": {
+                    "repoName": [
+                        "<em>as</em>-table"
+                    ],
+                    "description": [
+                        "A simple function that prints objects <em>as</em> ASCII tables."
+                    ]
+                }
+            },
+            {
+                "_index": "vis_repo_engine",
+                "_id": "XHvVJIUBASwVudlWs-Mw",
+                "_score": 7.472039,
+                "_source": {
+                    "repoName": "actions",
+                    "owner.ownerName": "6500634_fulll",
+                    "owner.htmlUrl": "https://github.com/fulll",
+                    "owner.ownerType": "Organization",
+                    "owner.ownerDescription": "Leveraging Bookkeeping workflows & data pipelines",
+                    "htmlUrl": "https://github.com/fulll/actions",
+                    "description": "github actions stuff :octocat:",
+                    "createdAt": "2019-01-17T09:29:48Z",
+                    "updatedAt": "2022-01-04T13:09:29Z",
+                    "size": 7260,
+                    "topics": [
+                        "github-actions",
+                        "infrastructure-as-code",
+                        "workflow"
+                    ],
+                    "stargazersCount": 39,
+                    "watchersCount": 39,
+                    "contentsUrl": "https://api.github.com/repos/fulll/actions/contents/{+path}",
+                    "language": [
+                        "JavaScript",
+                        "Go",
+                        "Dockerfile",
+                        "Shell",
+                        "HTML",
+                        "HCL"
+                    ],
+                    "contributors": [
+                        "aputzufulll",
+                        "dependabot[bot]",
+                        "vibou",
+                        "kesslerdev",
+                        "tpetitberghien",
+                        "Kevin-koko",
+                        "RemyNtshaykolo",
+                        "jcoste-ied",
+                        "fberthereau",
+                        "Meyfarth",
+                        "ScullWM",
+                        "Gui11aum3",
+                        "crozet-magenta",
+                        "bguillou",
+                        "didierfranc",
+                        "hadeli",
+                        "obense",
+                        "n-fasano",
+                        "xeonso",
+                        "Samffy",
+                        "truffo"
+                    ]
+                },
+                "highlight": {
+                    "topics": [
+                        "infrastructure-<em>as</em>-code"
+                    ]
+                }
+            }
+        ]
+    }
+}

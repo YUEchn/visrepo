@@ -1,0 +1,122 @@
+@import "~@/styles/layout.less";
+
+.main-container {
+  width: 100vw;
+  float: left;
+}
+
+.all-views-conrainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header {
+  width: @header-width;
+  height: @header-height;
+  color: rgb(55, 54, 54);
+  background-color: #fff;
+  // background-color: #f6f8fa;
+  font-family: "Gill Sans", sans-serif;
+  
+  // box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-filter {
+  width: @search-filter-width;
+  height: @search-filter-height;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 0 2px 0 3px;
+}
+
+.search-filter
+  :where(
+    .css-dev-only-do-not-override-acm2ia
+  ).ant-slider-horizontal.ant-slider-with-marks {
+  margin-bottom: 11px;
+}
+
+.search-filter :where(.css-dev-only-do-not-override-acm2ia).ant-input-number {
+  width: 2vw;
+}
+.search-filter :where(.css-dev-only-do-not-override-acm2ia).ant-tag {
+  padding-inline: 3px;
+}
+
+:where(.css-dev-only-do-not-override-acm2ia).ant-btn-primary {
+  background-color: gray;
+}
+
+.search-result {
+  width: @search-result-width;
+  height: @search-result-height;
+  float: left;
+}
+
+:root {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.list-container {
+  float: right;
+  left: 75vw;
+  width: @result-list-width;
+  height: @result-list-height;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.center-chart-container {
+  width: @center-chart-width;
+  height: @center-chart-height;
+  display: flex;
+  // flex-direction: column;
+  float: left;
+}
+
+.topic-tree-container {
+  width: calc(100% - @search-filter-width);
+  height: 100%;
+  // display: flex;
+}
+
+.flexlayout__layout {
+  top: 7vh !important;
+  width: 75vw;
+}
+
+.flexlayout__tab {
+  overflow: hidden !important;
+}
+
+// .close-repo-portrait{
+//     width: 100vw;
+//     height: 93vh;
+//     top:7vh;
+//     background-color: rgba(27, 31, 36, 0.5);
+//     position: absolute;
+//     border-radius: 0px;
+//     border: 0px solid rgb(0 94 211 / 15%);
+// }
+
+.repo-portrait {
+  position: absolute;
+  width: 50vw;
+  height: 96vh;
+  top: 0;
+  left: 100vw;    
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-result-id {
+  display: flex;
+  flex-wrap: nowrap;
+}

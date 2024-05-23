@@ -1,0 +1,188 @@
+@import "~@/styles/color.less";
+
+.tagSelected {
+  background-color: cornflowerblue;
+}
+
+div:where(.css-dev-only-do-not-override-53mz25).ant-typography,
+:where(.css-dev-only-do-not-override-53mz25).ant-typography p {
+  margin-bottom: 1px;
+}
+
+.repo-list-title {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+  color: #6a6969;
+
+  p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .result-list-sort {
+    // width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sort-title {
+      display: inline-block;
+      font-size: 0.4em;
+      font-style: italic;
+      width: 50px;
+    }
+
+    :where(.css-dev-only-do-not-override-1qhpsh8).ant-cascader {
+      width: 106px;
+      height: 18px;
+    }
+
+    .ant-select-selector {
+      background: #eee;
+    }
+  }
+
+  .list-rank-title {
+    padding-right: 5px;
+    font-size: 12px;
+  }
+}
+
+.repo-list-content {
+  width: 100%;
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.list-row-title {
+  display: flex;
+  justify-content: space-between;
+
+  .list-repo-name {
+    font-size: 20px;
+    color: #000;
+  }
+
+  .list-repo-name:hover {
+    color: blue;
+  }
+
+  .list-repo-rank {
+    font-weight: normal;
+  }
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 0.425em;
+}
+
+.match-style0 {
+  color: var(--word-0-7);
+}
+.match-style1 {
+  color: var(--word-1-7);
+}
+.match-style2 {
+  color: var(--word-2-7);
+}
+.match-style3 {
+  color: var(--word-3-7);
+}
+.match-style4 {
+  color: var(--word-4-7);
+}
+.match-style5 {
+  color: var(--word-5-7);
+}
+.match-style6 {
+  color: var(--word-6-7);
+}
+.match-style7 {
+  color: var(--word-7-7);
+}
+.match-style8 {
+  color: var(--word-8-7);
+}
+.match-style9 {
+  color: var(--word-9-7);
+}
+.match-style10 {
+  color: var(--word-10-7);
+}
+.match-style11 {
+  color: var(--word-11-7);
+}
+.match-style12 {
+  color: var(--word-12-7);
+}
+
+.minibar-chart-container {
+  width: 100px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+
+  .minibar-chart {
+    width: 90%;
+    height: 60%;
+    margin-left: 5px;
+    position: relative;
+
+    .minibar-chart-bg {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f8f6f6;
+      border-radius: 4px;
+    }
+
+    .minibar-chart-target {
+      position: absolute;
+      left: 0;
+      height: 100%;
+      background: #f3b2b2;
+      border-radius: 2px;
+    }
+  }
+
+  .minibar-chart-notion {
+    width: 10%;
+  }
+}
+
+
+.rank-index{
+  cursor: pointer;
+}
+
+
+// change antd font-size
+:where(.css-dev-only-do-not-override-53mz25)[class^="ant-typography"], :where(.css-dev-only-do-not-override-53mz25)[class*=" ant-typography"]{
+  font-size: 18px;
+}
+
+:where(.css-dev-only-do-not-override-53mz25).ant-tag{
+  font-size: 16px;
+}
