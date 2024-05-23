@@ -86,7 +86,8 @@ interface IControlPanelProps {
 }
 
 const ControlPanel = (props: IControlPanelProps) => {
-  const { filterOptionDt, setListResultDt, setTopicModelTreeDt, setSearchTopicsDt, setTopicsOverview } = { ...props };
+  // const { filterOptionDt, setListResultDt, setTopicModelTreeDt, setSearchTopicsDt, setTopicsOverview } = { ...props };
+  const { setListResultDt, setTopicModelTreeDt, setSearchTopicsDt, setTopicsOverview } = { ...props };
   let {
     timeBar,
     starRange,

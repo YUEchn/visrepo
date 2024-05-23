@@ -50,25 +50,25 @@ interface IRepoClusterProps {
 }
 const RepoCluster = (props: IRepoClusterProps) => {
   let {
-    topicClusterDt,
-    forkMax,
-    forkMin,
-    watchMax,
-    watchMin,
-    subclusterDt,
+    // topicClusterDt,
+    // forkMax,
+    // forkMin,
+    // watchMax,
+    // watchMin,
+    // subclusterDt,
     selectedTopicId,
     setSelectedRepoId,
     setUiLeftDirection 
   } = {
     ...props,
   };
-  // let { topicClusterDt, forkMax, forkMin, watchMax, watchMin, subclusterDt } = {
-  //   ...repoClusterDt,
-  // };
+  let { topicClusterDt, forkMax, forkMin, watchMax, watchMin, subclusterDt } = {
+    ...repoClusterDt,
+  };
   // const [axisValue, setAxisValue] = useState("score-star"); // 默认的值
   const [axisValue, setAxisValue] = useState("date-star"); // 默认的值
   const [openedP, setOpenedP] = useState([]); // 设置被展开的节点（保留x坐标的信息）
-  const [circleRadius, setCircleRadius] = useState<number>(10); // 设置小圆的半径
+  const [circleRadius, setCircleRadius] = useState<number>(8); // 设置小圆的半径
   const [clusterDFilter, setClusterDFilter] = useState({
     language: [],
     tech: [],

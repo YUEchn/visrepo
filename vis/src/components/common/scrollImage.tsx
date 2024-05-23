@@ -13,6 +13,9 @@ const ScrollImage = (props: {
       style={{ width: width, height: height, marginBottom: 5 }}
     >
       {!!images && images.map((e) => {
+        if(e.indexOf('47.109.60.147') !== -1){
+          e = e.replace('47.109.60.147', '47.109.57.143')
+        }
         // @ts-ignore
         return <Image width={width} height={height} src={e} />
 })}

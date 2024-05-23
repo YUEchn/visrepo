@@ -56,9 +56,9 @@ interface ITopicModelTree {
 // 这个图要展示出每个节点包含了多少个文档，直接在节点中给出，区分主题的权重
 const TopicModelTree = (props: ITopicModelTree) => {
   let {
-    data,
-    searchTopicsDt,
-    topicsOverview,
+    // data,
+    // searchTopicsDt,
+    // topicsOverview,
     setSelectedRepoId,
     setListResultDt,
     setTopicModelTreeDt,

@@ -69,7 +69,7 @@ const ResultList = (props: IResultList) => {
   let { data, loading, query, setSelectedRepoId, setUiLeftDirection, setSelectedTopicId, setListResultDt } = {
     ...props,
   };
-  // data = resultListDt;
+  data = resultListDt;
 
   const [rows, setRows] = useState(1);
   const [pageSize, setPageSize] = useState(10);

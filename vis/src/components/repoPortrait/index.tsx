@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Avatar, InputNumber, Space, Table, Tabs, Tag, Tooltip, Input } from "antd";
 import { UserOutlined, StarOutlined, EyeOutlined, ForkOutlined, GroupOutlined } from "@ant-design/icons";
-import Markdown from 'https://esm.sh/react-markdown@9'
+// import Markdown from 'https://esm.sh/react-markdown@9'
 import rehypeHighlight from 'rehype-highlight'
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism'
@@ -13,13 +13,11 @@ import * as echarts from "echarts";
 import * as d3 from "d3";
 import d3Cloud from "d3-cloud";
 import d3Tip from "d3-tip";
-import { Buffer } from "buffer";
-import { repoPortraitDt, words } from "../../utils/testData.ts";
+import { repoPortraitDt, words, fileContent } from "../../utils/testData.ts";
 import "./index.less";
 import { IRes } from "../../utils/type.ts";
 import { getSourceCode } from "../../apis/api.ts";
 import ScrollImage from "../common/scrollImage.tsx";
-import { useForm } from "antd/es/form/Form";
 const { Search } = Input;
 
 interface IRepoPortraitProps {
@@ -43,23 +41,23 @@ var directorySvg = null,
   wordcloudSvg = null;
 const RepoPortrait = (props: IRepoPortraitProps) => {
   const {
-    query,
-    basicInfo,
-    directory,
-    variablesWordCloud,
-    recommandRepo,
+    // query,
+    // basicInfo,
+    // directory,
+    // variablesWordCloud,
+    // recommandRepo,
     setSelectedRepoId,
   } = {
     ...props,
   };
-  // const { query, basicInfo, directory, variablesWordCloud, recommandRepo } = {
-  //   ...repoPortraitDt,
-  // };
+  const { query, basicInfo, directory, variablesWordCloud, recommandRepo } = {
+    ...repoPortraitDt,
+  };
   const maxLOC = directory.maxLOC;
   const [selectedFile, setSelectedFile] = useState(""); // 当前选中查看的文件
   const [minWordcloudLength, setMinWordcloudLength] = useState(1); // 设置变量名的最小长度，只有一个词的往往不具备语义信息
   const [minFrequency, setMinFrequency] = useState(1); // 设置最小出现次数，过滤出现次数少的
-    const [selectedFileContent, setSelectedFileContent] = useState(""); // 当前选中查看的文件内容
+    const [selectedFileContent, setSelectedFileContent] = useState(fileContent); // 当前选中查看的文件内容
   const [selectedFileType, setSelectedFileType] = useState("javascript"); // 当前选中查看的文件内容
   const languageRef = useRef();
   const wordCloudRef = useRef();
@@ -1918,37 +1916,38 @@ const RepoPortrait = (props: IRepoPortraitProps) => {
           <div className="source-code-container">
             <div id="source-code">
               {
-                selectedFile.toLowerCase().indexOf('readme') !== -1? <Markdown 
-                rehypePlugins={[rehypeHighlight]}
-                remarkPlugins={[remarkGfm]}
-                components={{
-                  // Map `h1` (`# heading`) to use `h2`s.
-                  h1: 'h2',
-                  h2: 'h3',
-                  // Rewrite `em`s (`*like so*`) to `i` with a red foreground color.
-                  em(props) {
-                    const {node, ...rest} = props
-                    return <i style={{color: 'red'}} {...rest} />
-                  },
-                  code(props) {
-                    const {children, className, node, ...rest} = props
-                    const match = /language-(\w+)/.exec(className || '')
-                    return match ? (
-                      <SyntaxHighlighter
-                        {...rest}
-                        PreTag="div"
-                        children={String(children).replace(/\n$/, '')}
-                        language={match[1]}
-                        style={dark}
-                      />
-                    ) : (
-                      <code {...rest} className={className}>
-                        {children}
-                      </code>
-                    )
-                  }
-                }}
-                >{selectedFileContent}</Markdown>: <ReactPrismjs
+                // selectedFile.toLowerCase().indexOf('readme') !== -1? <Markdown 
+                // rehypePlugins={[rehypeHighlight]}
+                // remarkPlugins={[remarkGfm]}
+                // components={{
+                //   // Map `h1` (`# heading`) to use `h2`s.
+                //   h1: 'h2',
+                //   h2: 'h3',
+                //   // Rewrite `em`s (`*like so*`) to `i` with a red foreground color.
+                //   em(props) {
+                //     const {node, ...rest} = props
+                //     return <i style={{color: 'red'}} {...rest} />
+                //   },
+                //   code(props) {
+                //     const {children, className, node, ...rest} = props
+                //     const match = /language-(\w+)/.exec(className || '')
+                //     return match ? (
+                //       <SyntaxHighlighter
+                //         {...rest}
+                //         PreTag="div"
+                //         children={String(children).replace(/\n$/, '')}
+                //         language={match[1]}
+                //         style={dark}
+                //       />
+                //     ) : (
+                //       <code {...rest} className={className}>
+                //         {children}
+                //       </code>
+                //     )
+                //   }
+                // }}
+                // >{selectedFileContent}</Markdown>:
+                 <ReactPrismjs
                 language={"js"}
                 // language={selectedFileType}
                 source={selectedFileContent}
