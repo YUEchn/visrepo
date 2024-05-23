@@ -3,6 +3,41 @@ This is a tool demo for our work VisRepo
 
 #### ***directory***
 
+vis_repo
+|-- back
+|   |-- data
+|   |   └-- home.js
+|   |-- script
+|       |-- app.py（main file）
+|       |-- textProcess
+|           |-- MyBerTopic.py（topic model method）
+|           |-- SourceCodeParser （parse source code method）
+|           |-- TextPreProcessor（text preprocess method）
+|-- vis
+    |-- public（public assets）
+    |-- scripts 
+    |-- src
+        |-- App.css
+        |-- App.test.tsx
+        |-- App.tsx
+        |-- index.css
+        |-- index.tsx
+        |-- apis（backend request api）
+        |   |-- api.ts
+        |   |-- http.ts
+        |   |-- request.ts
+        |-- components（modules）
+        |   |-- common
+        |   |-- controlPanel
+        |   |-- header
+        |   |-- main
+        |   |-- repoCluster
+        |   |-- repoPortrait
+        |   |-- resultList
+        |   |-- topicModelTree
+        |-- styles
+        |-- utils
+
 
 ### ***working with VisRepo***
 ***1. install and start Elasticsearch 8.4***
