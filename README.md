@@ -45,6 +45,6 @@ In the back/script directory, run: `python app.py.py`
 
 In the vis_repo/vis directory, run: `npm start`
 
-- check the status of codematcher
+- check the status of VisRepo
 
 `http://x.x.x.x:3000`
