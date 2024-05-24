@@ -1,5 +1,5 @@
 ### introduction
-This is a tool demo for our work VisRepo
+VisRepo is a visualization-based open-source project retrieval tool, this is a tool demo for it.
 
 #### project directory
 ```
