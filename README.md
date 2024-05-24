@@ -1,7 +1,7 @@
 ### ***introduction***
 This is a tool demo for our work VisRepo
 
-#### ***directory***
+#### ***project directory***
 ```
 vis_repo
 |-- back
@@ -37,7 +37,7 @@ vis_repo
         |-- styles
         |-- utils
 ```
-### ***working with VisRepo***
+### develop environment preparation
 ***1. install and start Elasticsearch 8.4***
 
 - download
@@ -70,16 +70,18 @@ vis_repo
 
 In the vis_repo/vis directory, run: `npm install`
 
-***4. start search engine***
+***4. download data and build Eslaticsearch index***
 
-- start backend
+data(Google Drive): https://drive.google.com/drive/folders/1zV7Q9pWhLJ5Wl8de2Hc4vfwROZFSM7Z2?usp=drive_link
 
-In the back/script directory, run: `python app.py.py`
+build Eslaticsearch index: `python indexing.py`
 
-- start frontend
+### start search engine
 
-In the vis_repo/vis directory, run: `npm start`
+- start backend(back/script), run: `python app.py.py`
+
+- start frontend(vis_repo/vis), run: `npm start`
 
 - check the status of VisRepo
 
-`http://localhost:3000`
+`http://x.x.x.x:3000`
