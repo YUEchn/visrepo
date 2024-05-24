@@ -1,7 +1,7 @@
-### ***introduction***
+### introduction
 This is a tool demo for our work VisRepo
 
-#### ***project directory***
+#### project directory
 ```
 vis_repo
 |-- back
