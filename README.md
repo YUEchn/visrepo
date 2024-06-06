@@ -56,22 +56,6 @@ vis_repo
 
 `http://x.x.x.x:9200`
 
-#### repo source code
-
-<details>
-<summary>add these folders into a folder and change the folder path in back/app.py</summary>
-
-[60000-69999](https://pan.quark.cn/s/908cb145f453)
-[20000-29999](https://pan.quark.cn/s/cd8b689d9bee)
-[70000-79999](https://pan.quark.cn/s/4b5f5303ebc3)
-[50000-59999](https://pan.quark.cn/s/3f77cf88805b)
-[40000-49999](https://pan.quark.cn/s/73865f07cae6)
-[30000-39999](https://pan.quark.cn/s/a91859f45c95)
-[10000-19999](https://pan.quark.cn/s/a1709a6b2789)
-[0-9999](https://pan.quark.cn/s/bfe8279394bd)
-
-</details>
-
 ***2. install node 16***
 
 - download
@@ -95,6 +79,22 @@ In the vis_repo/vis directory, run: `npm install`
 data(Google Drive): https://drive.google.com/drive/folders/1zV7Q9pWhLJ5Wl8de2Hc4vfwROZFSM7Z2?usp=drive_link
 
 build Eslaticsearch index: `python indexing.py`
+
+***5. repo source code***
+
+<details>
+<summary>add these folders into a folder and change the folder path in back/app.py</summary>
+
+[60000-69999](https://pan.quark.cn/s/908cb145f453)
+[20000-29999](https://pan.quark.cn/s/cd8b689d9bee)
+[70000-79999](https://pan.quark.cn/s/4b5f5303ebc3)
+[50000-59999](https://pan.quark.cn/s/3f77cf88805b)
+[40000-49999](https://pan.quark.cn/s/73865f07cae6)
+[30000-39999](https://pan.quark.cn/s/a91859f45c95)
+[10000-19999](https://pan.quark.cn/s/a1709a6b2789)
+[0-9999](https://pan.quark.cn/s/bfe8279394bd)
+
+</details>
 
 ### start search engine
 
