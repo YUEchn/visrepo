@@ -60,7 +60,7 @@ vis_repo
 
 - download
 
-`https://www.elastic.co/downloads/past-releases#elasticsearch`
+`https://nodejs.org/download/docs/v0.12.7/`
 
 - Configure the system environment
 
