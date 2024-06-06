@@ -2,6 +2,8 @@
 VisRepo is a visualization-based open-source project retrieval tool, this is a tool demo for it.
 ![system](https://github.com/YUEchn/visrepo/assets/50124564/e9bbd4c0-63b7-4d39-a19c-49d76bd5e606)
 
+The system contains a module for exploring search results and a module for presenting project details. The exploration module provides an overview of the semantic level of the search results from a thematic perspective, while the detailed information module mainly displays the source code parsing results to improve the comprehensibility of the project.
+
 [Demo Tool Website](http://122.51.117.54)
 
 [Demo Video](https://youtu.be/-fqL8ngSmwQ)
